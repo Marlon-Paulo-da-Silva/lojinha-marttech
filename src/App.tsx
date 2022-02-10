@@ -1,11 +1,12 @@
 import { Routes } from 'react-router-dom';
 import './App.css';
 import { RoutesApp } from './routes';
-import { Theme } from './themes/theme';
+import { Theme, GlobalStyles } from './themes';
 
 export const App = ( ) => {
   return (
     <Theme>
+      <GlobalStyles />
       <RoutesApp />
     </Theme>
   );
