@@ -1,12 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
+import { Routes } from 'react-router-dom';
 import './App.css';
+import { RoutesApp } from './routes';
+import { Theme } from './themes/theme';
 
-function App() {
+export const App = ( ) => {
   return (
-    <div className="App">
-      
-    </div>
+    <Theme>
+      <RoutesApp />
+    </Theme>
   );
 }
 

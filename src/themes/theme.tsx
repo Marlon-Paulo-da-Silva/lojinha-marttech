@@ -13,7 +13,8 @@ const secondary = '#F9b531';
 const theme = {
   fontSizes,
   colors: {
-    primary
+    primary,
+    secondary
   }
 }
 
